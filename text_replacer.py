@@ -659,6 +659,10 @@ class ScrolledFrame(ttk.Frame):
 if __name__ == "__main__":
     root = tk.Tk()
     # Set icon and theme
+    try:
+        root.iconbitmap("icon.ico")
+    except Exception as e:
+        print(f"Could not load custom .ico: {e!r}")
     root.option_add('*Font', 'TkDefaultFont 9')
     app = TextReplacerApp(root)
     root.mainloop()
