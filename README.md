@@ -11,6 +11,10 @@ A lightweight GUI application for performing controlled, percentage-based text r
 * **Configuration Persistence**: Save and load your replacement setup as a JSON file.
 * **Statistics**: View character and word counts before and after replacements.
 
+
+![text_replacer](img.png)
+
+
 ## Installation
 
 1. Ensure you have **Python 3.6+** installed.
